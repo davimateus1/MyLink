@@ -24,6 +24,7 @@ body{
     font-size: 35px; line-height: 3.5em;
     transition: all 0.5s;
     cursor: pointer;
+    color: #FFF;
 }
 
 #dados1{
@@ -99,4 +100,5 @@ body{
 .developed{
     transition: all 0.5s;
     cursor: pointer;
+    color: #FFF;
 }
