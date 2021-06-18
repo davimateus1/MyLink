@@ -1,6 +1,6 @@
 <h2> My Link </h2>
 <br>
-<p>My Link é uma aplicação web que foi desenvolvida por mim, no intuito de armazenas os meus links de contato e assim, fazer com que se torne mais fácil me contatar</p>
+<p>My Link é uma aplicação web que foi desenvolvida por mim, no intuito de armazenar os meus links de contato e assim, fazer com que se torne mais fácil me contatar</p>
 <p>Este projeto atua fazendo as mesmas funções que o Linkme, foram utilizadas as seguintes tecnologias: </p>
 <p>• HTML5 <br>• CSS3 </p>
  <p>Se quiser entender melhor como este projeto funciona <strong><a href="https://mylink-nine.vercel.app/">Clique aqui</a> </strong></p>
