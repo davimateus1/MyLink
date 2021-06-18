@@ -1,0 +1,102 @@
+* {
+margin: 0;
+padding: 0;    
+}
+
+#pofile{
+    width: 140px;
+    height: 140px;
+    background-color: #000;
+    color: #FFF;
+    border-radius: 50%;
+    text-align: center;
+    border: 4px solid rgb(10, 100, 204);
+}
+
+body{
+    background-image: url("universe.jpg");
+    font-family: Poppins;   
+    text-align: center;
+    
+}
+
+.MeuLinks{
+    font-size: 35px; line-height: 3.5em;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+#dados1{
+    font-size: 23px; line-height: 2.0em;
+    background-image: linear-gradient(to right, rgba(32, 16, 255, 0.76), rgb(4, 12, 54)); 
+    border-radius: 20%;
+    padding: 15px 90px;
+    text-align: relative;
+    text-decoration: none;
+    display: inline-block;
+    font-family: Poppins;
+    font-size: 16px;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+#dados2{
+    font-size: 23px; line-height: 2.0em;
+    background-image: linear-gradient(to right, rgba(32, 16, 255, 0.76), rgb(4, 12, 54)); 
+    border-radius: 20%;
+    padding: 15px 100px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: Poppins;
+    font-size: 16px;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+#dados3{
+    font-size: 23px; line-height: 2.0em;
+    background-image: linear-gradient(to right, rgba(32, 16, 255, 0.76), rgb(4, 12, 54)); 
+    border-radius: 20%;
+    padding: 15px 105px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: Poppins;
+    font-size: 16px;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.developed{
+    font-family: Poppins;
+}
+
+#dados1:hover{
+    background-image: linear-gradient(to right, rgba(31, 5, 65, 0.76), rgb(6, 22, 102)); 
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    -webkit-transform: scale(1.5);
+    transform: scale(1.2);
+}
+
+#dados2:hover{
+    background-image: linear-gradient(to right, rgba(31, 5, 65, 0.76), rgb(6, 22, 102)); 
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    -webkit-transform: scale(1.5);
+    transform: scale(1.2);
+}
+
+#dados3:hover{
+    background-image: linear-gradient(to right, rgba(31, 5, 65, 0.76), rgb(6, 22, 102));
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));  
+    -webkit-transform: scale(1.5);
+    transform: scale(1.2);
+}
+
+.developed{
+    transition: all 0.5s;
+    cursor: pointer;
+}
