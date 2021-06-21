@@ -92,6 +92,7 @@ body{
 
 .developed{
     font-family: Poppins;
+    color: #FFF;
     transition: all 0.5s;
     cursor: pointer;
     text-align: center;
