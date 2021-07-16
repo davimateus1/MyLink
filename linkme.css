@@ -17,6 +17,8 @@ padding: 0;
 
 body{
     background-image: url("universe.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
     font-family: Poppins;   
     text-align: center;
     
