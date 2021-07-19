@@ -32,6 +32,20 @@ body{
     color: #FFF;
 }
 
+#informacoes{
+    background-image: linear-gradient(to right, rgba(32, 16, 255, 0.5), rgb(4, 12, 54)); 
+    border-radius: 5%;
+    padding: 15px 90px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: Poppins;
+    color: rgb(126, 205, 231);
+    font-size: 16px;
+    transition: all 0.5s;
+    border:3px solid rgb(126, 205, 231); 
+}
+
 #dados1{
     line-height: 2.0em;
     background-image: linear-gradient(to right, rgba(32, 16, 255, 0.76), rgb(4, 12, 54)); 
@@ -92,7 +106,7 @@ body{
     cursor: pointer;
 }
 
-.developed{
+#developed{
     font-family: Poppins;
     color: #FFF;
     transition: all 0.5s;
@@ -137,7 +151,7 @@ body{
     transform: scale(1.2);
 }
 
-.developed:hover{
+#developed:hover{
     -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
     filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));  
     -webkit-transform: scale(1.5);
