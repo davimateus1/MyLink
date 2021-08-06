@@ -16,12 +16,12 @@ padding: 0;
 }
 
 body{
-    background-image: url("universe.jpg");
+    background-image: url("../img/universe.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     font-family: Poppins;   
     text-align: center;
-    
+    height: 100%;
 }
 
 .MeuLinks{
@@ -45,6 +45,27 @@ body{
     transition: all 0.5s;
     border:3px solid rgb(126, 205, 231); 
 }
+
+.texto{
+    white-space: nowrap;
+    overflow: hidden;
+    width: 30em;
+    animation: type 4s steps(60, end); 
+  }
+  
+  .texto:nth-child(5){
+    animation: type2 8s steps(60, end);
+  } 
+
+  @keyframes type{ 
+    from { width: 0; } 
+  } 
+  
+  @keyframes type2{
+    0%{width: 0;}
+    50%{width: 0;}
+    100%{ width: 100; } 
+  } 
 
 #dados1{
     line-height: 2.0em;
@@ -110,8 +131,9 @@ body{
     font-family: Poppins;
     color: #FFF;
     transition: all 0.5s;
-    cursor: pointer;
+    cursor: default;
     text-align: center;
+    margin-top: 35px;
 }
 
 #pofile:hover{
@@ -149,11 +171,4 @@ body{
     filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));  
     -webkit-transform: scale(1.5);
     transform: scale(1.2);
-}
-
-#developed:hover{
-    -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
-    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));  
-    -webkit-transform: scale(1.5);
-    transform: scale(1.2);
-}
+}  
